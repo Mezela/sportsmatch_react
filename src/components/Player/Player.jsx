@@ -1,7 +1,6 @@
 import React from 'react'
 import axios from 'axios'
 import { NavLink } from 'react-router-dom'
-
 import styles from './css/Player.module.css'
 
 class Player extends React.Component {

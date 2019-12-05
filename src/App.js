@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Signup from './components/Signup';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Profile from './components/Profile';
+import Profile from './components/Player/Profile';
 import PrivateRoute from './components/PrivateRoute';
-import PlayerProfile from './components/PlayerProfile'
-import EditProfileForm from './components/EditProfileForm'
-import DisplayMessages from './components/DisplayMessages'
+import PlayerProfile from './components/Player/PlayerProfile'
+import EditProfileForm from './components/Player/EditProfileForm'
+import DisplayMessages from './components/Message/DisplayMessages'
 import Results from './components/Results'
 import NewResult from './components/NewResult'
 

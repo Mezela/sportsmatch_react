@@ -1,7 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-import GameRequestForm from './GameRequestForm'
-
+import GameRequestForm from '../Game/GameRequestForm'
 
 class PlayerProfile extends React.Component {
   constructor(props) {

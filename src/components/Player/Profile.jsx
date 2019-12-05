@@ -1,11 +1,11 @@
 import React from 'react'
 import axios from 'axios'
-import GameRequests from './GameRequests'
+import GameRequests from '../Game/GameRequests'
 // import SingleResult from './SingleResult'
 import EditImageForm from './EditImageForm'
 import EditBioForm from './EditBioForm'
 import { NavLink, Redirect } from 'react-router-dom'
-import styles from './css/Profile.module.css'
+import styles from '../css/Profile.module.css'
 
 
 class Profile extends React.Component {

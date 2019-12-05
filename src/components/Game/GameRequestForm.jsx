@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 import axios from "axios";
-import FlashMessage from './FlashMessage'
+import FlashMessage from '../FlashMessage'
 
 class GameRequest extends Component {
   constructor(props) {

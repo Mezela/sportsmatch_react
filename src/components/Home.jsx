@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import FilterBar from './FilterBar';
-import Player from './Player';
+import Player from './Player/Player.jsx';
 import Login from './Login'
 import styles from './css/Home.module.css'
 import InfiniteCarousel from 'react-leaf-carousel'
